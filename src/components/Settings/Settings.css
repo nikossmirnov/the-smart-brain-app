@@ -1,0 +1,80 @@
+.wrapper-settings {
+  width: 100%;
+  position: relative;
+  top: 4em;
+}
+
+.settings {
+  width: 45em;
+  margin: 0 auto 2em auto;
+  padding: 0.5em 2em;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid #cecece;
+}
+
+.settings-section-title {
+  width: 10em;
+  font-size: 1.3em;
+}
+
+.settings-section {
+  position: relative;
+}
+
+.settings-section:first-child {
+  margin-bottom: 3em;
+}
+
+.settings-section-top, .settings-section-bottom {
+  width: 65%;
+}
+
+.settings-section-top {
+  margin: 0.5em 0;
+  font-weight: bold;
+}
+
+.settings-section-bottom {
+  margin: 0 0 1.5em 0;
+}
+
+.account-edit {
+  width: 35%;
+  text-align: right;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+}
+
+.account-edit:hover {
+  font-weight: bold;
+}
+
+.explanation {
+  color: #515151;
+  font-style: italic;
+}
+
+@media screen and (max-width: 800px) {
+  .settings {
+    width: 90%;
+  }
+
+  .settings-section-top, .settings-section-bottom {
+    width: 100%;
+  }
+
+  .settings-section-bottom {
+    margin-bottom: 0.5em;
+  }
+
+  .account-edit {
+    width: 100%;
+    margin-bottom: 1.5em;
+    display: inline-block;
+    text-align: left;
+    position: relative;
+  }
+}

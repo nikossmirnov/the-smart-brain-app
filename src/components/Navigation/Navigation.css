@@ -1,0 +1,28 @@
+nav {
+  position: absolute;
+  top: 0.5em;
+  right: 0;
+}
+
+nav p {
+  margin: 1em;
+  padding: 0.5em;
+  display: inline-block;
+  cursor: pointer;
+}
+
+nav p:hover {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 640px) {
+  nav {
+    top: 1em;
+  }
+
+  nav p {
+    padding: 0.5em 1.5em;
+    text-align: right;
+    display: block;
+  }
+}

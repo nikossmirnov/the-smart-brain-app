@@ -1,0 +1,38 @@
+.face-recognition {
+  width: 40em;
+  min-height: 13em;
+  height: auto;
+  margin: 1em auto;
+  position: relative;
+}
+
+.face-recognition img {
+  width: 100%;
+}
+
+.bounding-box {
+  box-shadow: 0 0 0 3px #149df2 inset;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+}
+
+@media screen and (max-width: 800px) {
+  .face-recognition {
+    width: 34em;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .face-recognition {
+    width: 25em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .face-recognition {
+    width: 16em;
+  }
+}

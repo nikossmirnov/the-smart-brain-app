@@ -1,0 +1,20 @@
+.rank {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.rank p {
+  margin: 0;
+  padding: 0 1em;
+  font-size: 2em;
+}
+
+.rank span {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 640px) {
+  .rank p {
+    font-size: 1.3em;
+  }
+}

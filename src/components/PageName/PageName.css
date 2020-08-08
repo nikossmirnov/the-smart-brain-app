@@ -1,0 +1,16 @@
+.page-name {
+  margin: 0 1em;
+  font-size: 1.3em;
+  text-align: right;
+  position: absolute;
+  top: 6em;
+  right: 0;
+}
+
+@media screen and (max-width: 640px) {
+  .page-name {
+    font-size: 1.1em;
+    position: relative;
+    top: 2.5em;
+  }
+}

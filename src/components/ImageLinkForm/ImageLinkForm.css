@@ -1,0 +1,42 @@
+.image-link-form {
+  padding: 1em;
+}
+
+.image-link-form p {
+  margin-top: 0.5em;
+  text-align: center;
+}
+
+.form-input {
+  text-align: center;
+}
+
+.form-input * {
+  display: inline;
+  vertical-align: middle;
+}
+
+.form-input input {
+  width: 50%;
+  height: 2em;
+  margin: 1em;
+  padding: 0.3em 0.5em;
+}
+
+.form-input button {
+  width: 8em;
+  height: 2.5em;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 640px) {
+  .form-input {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+
+  .form-input input {
+    width: 90%;
+  }
+}
